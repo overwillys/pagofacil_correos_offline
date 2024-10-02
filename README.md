@@ -10,5 +10,8 @@ El script lo que hace es escanear tu bandeja de entrada de Gmail deacuerdo a un 
 Luego descargar el archivo.txt que trae como adjunto.
 Abrirá dicho archivo, y comenzará a recopilar la información para luego, esta misma, poder hacer inserciones SQL.
 A su vez, el archivo, se descargará en el disco y se subira a una bucket de S3.
-También lo pondrá dentro de tu host, para poder usarlo en el sistema.
+También lo pondrá dentro de tu host, para poder usarlo en el sistema. Fijaos en la parte del código de ejemplo: 
+
+    commandsFile.write("open sftp://bitnami@184.214.552.33/ -privatekey=\"" + os.path.dirname(__file__) + "\\aws-lightsail-key.ppk\"\r\n")           
+
 
