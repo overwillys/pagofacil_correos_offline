@@ -14,10 +14,10 @@ import subprocess
 correo = "tu_correo@gmail.com"
 
 # Contraseña de tu aplicación creada en Gmail.
-contraseña = "alkcpbrliebheazc"
+contraseña = "elpassAPP"
 
 # Ruta donde se descargan los archivos
-ruta_destino = "C:\\Users\\williams.tuate\\Downloads\\CORREOS\\"
+ruta_destino = "C:\\Ejemplo\\williams\\Downloads\\CORREOS\\"
 
 
 # Conectar al servidor IMAP de Gmail
